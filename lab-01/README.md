@@ -2,8 +2,7 @@
 
 YOUR NAME K. Vinay Vardhan · YOUR REGISTRATION NUMBER 252U1R9052 · YOUR SECTION CSE(GEN-AI)2A&304
 
-**Live link:** _paste your deployed URL here (or explain why it could not be deployed and add Postman screenshots)_
-
+**Live link:** https://labs-mu-nine.vercel.app/
 ## How to run
 
 ```bash
