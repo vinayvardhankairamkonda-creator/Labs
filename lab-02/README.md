@@ -1,6 +1,6 @@
 # Lab 2: SQLite database and CRUD routes
 
-**Name:** <Kairamkonda Vinay Vardhan> · **Registration number:** <252U1R9052> · **Section:** <CSE-GenAI-2A-304>
+**Name:**  Kairamkonda Vinay Vardhan · **Registration number:** <252U1R9052> · **Section:** CSE-GenAI-2A-304
 
 **Live link:** <paste your deployed URL here, or explain why the project could not be deployed>
 
