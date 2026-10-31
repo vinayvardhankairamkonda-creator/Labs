@@ -3,6 +3,7 @@
 YOUR NAME K. Vinay Vardhan · YOUR REGISTRATION NUMBER 252U1R9052 · YOUR SECTION CSE(GEN-AI)2A&304
 
 **Live link:** https://labs-mu-nine.vercel.app/
+
 ## How to run
 
 ```bash
@@ -24,10 +25,10 @@ Environment variables: `PORT` (optional, defaults to 3000).
 
 ## Screenshots
 
-![Home route](screenshots/home.png)
-![About route](screenshots/about.png)
-![Time route](screenshots/time.png)
-![404 route](screenshots/not-found.png)
+![Home route](screenshots/Home.png)
+![About route](screenshots/About.png)
+![Time route](screenshots/Time.png)
+![404 route](screenshots/404.png)
 
 ## package.json fields
 
