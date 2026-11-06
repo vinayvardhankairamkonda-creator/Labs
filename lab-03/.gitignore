@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.log
+.DS_Store
+# local database file (recreated and seeded on first start)
+books.db
