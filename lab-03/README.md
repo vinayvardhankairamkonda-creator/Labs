@@ -26,6 +26,12 @@ The database file and the `books` table are created and seeded with 12 books on 
 
 Run the offline logic tests (validation rules and generated SQL): `npm test`
 
+## Deploy to Vercel
+
+When importing the `Labs` repository, set **Root Directory** to `lab-03` in the Vercel project settings. Vercel then deploys the `api/` function and sends all paths to the Express API.
+
+The SQLite database is initialized in Vercel's temporary `/tmp` directory and seeded with the sample books. Vercel's filesystem is not persistent, so records created or changed through the API may be lost when a function instance is replaced. Use a hosted database if deployed data must persist.
+
 ## Endpoints
 
 | Method | Path | Description | Success | Failure |

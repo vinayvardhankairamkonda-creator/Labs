@@ -1,4 +1,5 @@
 const path = require("path");
+const os = require("os");
 const sqlite3 = require("sqlite3");
 const { open } = require("sqlite");
 
@@ -18,7 +19,10 @@ const SEED_BOOKS = [
 ];
 
 async function initDb() {
-  const dbPath = path.resolve(process.env.DB_PATH || "./books.db");
+  const defaultDbPath = process.env.VERCEL
+    ? path.join(os.tmpdir(), "books.db")
+    : "./books.db";
+  const dbPath = path.resolve(process.env.DB_PATH || defaultDbPath);
   const db = await open({ filename: dbPath, driver: sqlite3.Database });
 
   await db.exec(`
