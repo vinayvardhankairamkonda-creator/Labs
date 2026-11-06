@@ -78,14 +78,31 @@ List response: `{ "total": 12, "limit": 5, "offset": 0, "books": [ ... ] }` (`to
 
 ## Screenshots
 
-Add your own screenshots to the `screenshots/` folder and show them here, for example:
+The screenshots below show the API's list, filtering, and CRUD responses:
 
-<!-- ![GET /books with search and sort](screenshots/get-books-search.png) -->
-<!-- ![POST /books returns 201](screenshots/post-201.png) -->
-<!-- ![POST /books with missing title returns 400](screenshots/post-400.png) -->
-<!-- ![GET /books/999999 returns 404](screenshots/get-404.png) -->
-<!-- ![Postman collection run](screenshots/postman-run.png) -->
-<!-- ![Database view](screenshots/database.png) -->
+### List, search, sort, and filter
+
+![Default book list](screenshots/01-get-books-default.png)
+
+![Search books](screenshots/02-search.png)
+
+![Sort books by descending price](screenshots/03-sort-price-desc.png)
+
+![Paginate the book list](screenshots/04-pagination.png)
+
+![Filter books by price range](screenshots/05-price-range.png)
+
+![Combine book list filters](screenshots/06-combined-filters.png)
+
+### Create, read, update, and delete
+
+![Create a book with HTTP 201](screenshots/07-post-201.png)
+
+![Get a book by ID](screenshots/08-get-by-id.png)
+
+![Update a book with HTTP 200](screenshots/09-put-200.png)
+
+![Delete a book with HTTP 200](screenshots/10-delete-200.png)
 
 ## Notes: problems faced and how I solved them
 
