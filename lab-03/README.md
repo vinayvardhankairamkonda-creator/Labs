@@ -2,7 +2,7 @@
 
 **Name:** Kairamkonda Vinay Vardhan · **Registration number:** 252U1R9052 · **Section:** CS(GEN-AI)2A & 304
 
-**Live link:** PASTE YOUR DEPLOYED URL HERE (or explain below why the project could not be deployed, and add Postman screenshots of every endpoint)
+**Live link:** https://labs-llvj.vercel.app/books
 
 ## How to run
 
